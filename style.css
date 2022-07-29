@@ -52,7 +52,7 @@ a{
     justify-content: center;
 }
 .cover {
-    width: 50rem;
+    width: 30rem;
     padding-top: 90px;
 }
 .grid-wrapper{
@@ -63,7 +63,7 @@ a{
 .box {
     background-color: #444;
     padding: 15px;
-    margin: 20px;
+    margin: 0px;
 }
 .box > img {
     width:100%;
