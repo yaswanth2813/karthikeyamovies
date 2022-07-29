@@ -63,7 +63,7 @@ a{
 .box {
     background-color: #444;
     padding: 15px;
-    margin: 0px;
+    margin: 20px;
 }
 .box > img {
     width:100%;
