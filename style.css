@@ -46,7 +46,7 @@ a{
     width: 100%;
 }
 .container{
-    height: 80vh;
+    height: 50vh;
     items-align: center;
     display: flex;
     justify-content: center;
@@ -57,12 +57,12 @@ a{
 }
 .grid-wrapper{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(360px,1fr));
     grid-gap: 20px;
 }
 .box {
     background-color: #444;
-    padding: 15px;
+    padding: 20px;
     margin: 20px;
 }
 .box > img {
