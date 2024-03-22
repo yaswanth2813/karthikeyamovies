@@ -1,29 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>live</title>
-	<link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash IPL</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
 </head>
+
 <body>
-     <video
-        id="my-video"
-    class="video-js"
-    controls
-    preload="auto"
-    width="640"
-    height="264"
-    poster="https://www.adgully.com/img/800/201909/zee-cinemalu.jpg"
-    data-setup="{}"
-          >
-     	<source src="https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeecinemalu/default/zeecinemalu-audio_208482_und=208000-video=2137600.m3u8
-" type="application/x-mpegURL" >
-     </video>
 
-     
-     
+    <div class="d-flex flex-column justify-content-center text-center bg micky">
+        <div>
+            <h1>Yash IPL</h1>
+        </div>
+        <div class="live">
+            <video id="my-video" class="video-js" controls preload="auto" height="264" poster="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/ipl_csk_vs_rcb_carousel-1711037233256.jpg" data-setup="{}">
+                <source src="https://prod-sports-south-fa.jiocinema.com/hls/live/2109718/hd_akamai_iosmob_avc_tel_ipl_s1_m1220324/master_1080p.m3u8" type="application/x-mpegURL">
+            </video>
+        </div>
+
+
+
+    </div>
+    <script defer src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-	<script defer src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
-
 </html>
