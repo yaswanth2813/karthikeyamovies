@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Employee Login</title>
+	<link rel="stylesheet" type="text/css" href="employeelogin.css">
+</head>
+<body>
+<div class="row">
+            <div class="col-11 col-sm-8 col-md-6 col-lg-6 col-xl-4 WhiteBackground shadow-lg mx-auto p-0 mt-5" id="loginBox">
+                
+                    <div class="card border-0">
+                        <div class="card-header loginBoxBorder">
+                            <h4 class="fw-bold">VTOP Login</h4>
+                        </div>
+                        <div class="card-body" id="bodyContent">
+                            <form id="vtopLoginForm">
+
+                                <!-- USERID -->
+
+                                <div class="input-group input-group-sm mb-3">
+                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" id="username" name="username" onkeyup="this.value = this.value.toUpperCase()" autocomplete="off">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-user text-primary" aria-hidden="true"></i></span>
+                                </div>
+
+                                <!-- PASSWORD -->
+
+                                <div class="input-group input-group-sm mb-3">
+                                    <input type="password" class="form-control" placeholder="Password" id="password" name="password" aria-describedby="basic-addon2">
+                                    <button id="basic-addon2" class="btn btn-light border-secondary" type="button">
+                                        <i class="fa fa-eye text-danger fw-bold" id="passwordIcon"   ="javascript:toggleEye();" aria-hidden="false"></i>
+                                    </button>
+                                </div>
+
+                                <!-- IN BUILT CAPTCHA  -->
+
+                                
+
+                                <!-- GOOGLE CAPTCHA  -->
+
+                                
+                                    <div id="recaptcha" class="g-recaptcha" data-sitekey="6LfzijMUAAAAACRHPUtzyKDeqEtqSmWOuJS3duAj" data-callback="callBuiltValidation" data-size="invisible"><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-22uv2ggfbiss" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfzijMUAAAAACRHPUtzyKDeqEtqSmWOuJS3duAj&amp;co=aHR0cHM6Ly92dG9wLnZpdGFwLmFjLmluOjQ0Mw..&amp;hl=en&amp;v=rKbTvxTxwcw5VqzrtN-ICwWt&amp;size=invisible&amp;cb=gyuv3ncz50dt"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+                                    <input type="hidden" id="gResponse" name="gResponse" value="">
+                                
+
+                                
+
+                                <button type="button"  class="btn btn-sm btn-primary float-end">Submit</button>
+                            </form>
+                        </div>
+                        
+                        
+
+                        <div class="card-footer border-0 small">
+                            <a class="fw-bold text-decoration-none"   ="javascript:resetPassword()" href="javascript:void(0)">Forgot
+                                Password</a><br>
+                            <a class="fw-bold text-decoration-none "   ="javascript:forgotUserID()" href="javascript:void(0)">Forgot
+                                LoginId</a>
+                            <div class="text-end">
+                                <a class="fw-light fst-italic text-success" href="http://vitapvtop.ccbp.tech"><strong><i>Go to
+                                            Home
+                                            Page</i></strong></a>
+                            </div>
+
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+p{  animation:color-change 2s linear infinite;
+
+    color: #56B870; /* Old browsers */
+    color: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%); /* FF3.6+ */
+    color: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56B870), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
+    color: -webkit-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Chrome10+,Safari5.1+ */
+    color: -o-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Opera 11.10+ */
+    color: -ms-linear-gradient(top, #56B870 0%,#a5c956 100%); /* IE10+ */
+    color: linear-gradient(top, #56B870 0%,#a5c956 100%); /* W3C */
+
+}
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: gold; }
+}
